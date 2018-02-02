@@ -17,6 +17,15 @@ body {
     width: 100%;
 }
 
+footer {
+    background-image: url('img/logo-iut.jpg');
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px auto;
+    height: 110px;
+}
+
 @media screen and (max-width: 480px) {
     .p1,
     .p2,
@@ -37,11 +46,40 @@ body {
     .p1,
     .p2,
     .p3 {
-        width: 100%;
+        display: block;
+        margin: auto;
+        width: 95%;
     }
     .mairie {
         width: 480px;
         display: block;
         margin: auto;
     }
+    form {
+        width: 95%;
+        display: block;
+        margin: auto;
+    }
 }
+
+@media screen and (min-width: 769px) {
+    .p1,
+    .p2,
+    .p3 {
+        display: block;
+        margin: auto;
+        width: 80%;
+    }
+    .mairie {
+        width: 480px;
+        display: block;
+        margin: auto;
+    }
+    form {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 480px) and (-webkit-max-device-pixel-ration: 2) {}
