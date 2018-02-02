@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    color: aliceblue;
+    background-image: url('img/bg.jpg');
+    background-size: cover;
 }
 
 h1 {
@@ -15,22 +18,19 @@ table,
 th,
 td {
     border-style: solid;
-    border-color: gray;
+    border-color: white;
     border-collapse: collapse;
 }
 
 .p1 {
-    background-color: aqua;
     width: 100%;
 }
 
 .p2 {
-    background-color: white;
     width: 100%;
 }
 
 .p3 {
-    background-color: red;
     width: 100%;
 }
 
