@@ -2,6 +2,23 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-size: 8rem;
+    text-align: center;
+}
+
+section {
+    font-size: 1rem;
+}
+
+table,
+th,
+td {
+    border-style: solid;
+    border-color: gray;
+    border-collapse: collapse;
+}
+
 .p1 {
     background-color: aqua;
     width: 100%;
@@ -40,6 +57,17 @@ footer {
         width: 100%;
         height: 25px;
     }
+    tr {
+        display: flex;
+        flex-direction: column;
+    }
+    table {
+        width: 100%;
+    }
+    h1 {
+        font-size: 1.8rem;
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -60,6 +88,18 @@ footer {
         display: block;
         margin: auto;
     }
+    tr {
+        display: flex;
+        flex-direction: column;
+    }
+    table {
+        width: 80%;
+        margin: auto;
+    }
+    h1 {
+        font-size: 1.8rem;
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 769px) {
@@ -78,6 +118,10 @@ footer {
     form {
         width: 80%;
         display: block;
+        margin: auto;
+    }
+    table {
+        width: 80%;
         margin: auto;
     }
 }
